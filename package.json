@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "a simple hangman game",
+  "main": "input.js",
+  "scripts": {
+    "dev-server": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^7.1.4",
+    "bootstrap": "^4.6.0",
+    "live-server": "^1.2.0",
+    "requirejs-babel-plugin": "^0.5.0",
+    "resolve-url": "^0.2.1",
+    "source-map-support": "^0.5.19",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.36.1"
+  }
+}
