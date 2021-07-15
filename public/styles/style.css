@@ -9,7 +9,11 @@ html {
 }
 
 body {
-  background: #2b292e;
+  background-image: linear-gradient(
+    99deg,
+    rgb(18, 20, 115) 10%,
+    rgb(53, 194, 11) 118%
+  );
   color: #fafafa;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
@@ -18,20 +22,32 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.intro-container h1 {
+  margin-bottom: 2rem;
+}
+.intro-container p {
+  margin-bottom: 2rem;
+}
 span {
-  border-bottom: 1px solid #534f59;
+  border-bottom: 1px solid #fdfdfd;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 3rem;
   height: 2.4rem;
   line-height: 2.4rem;
-  margin: 0 0.1rem;
+  margin: 0 0.35rem;
   text-align: center;
   text-transform: uppercase;
   width: 2.4rem;
 }
 
 p {
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 0.8rem;
 }
@@ -47,7 +63,7 @@ p {
   border-bottom: 2px solid #603a88;
   cursor: pointer;
   color: white;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 300;
   padding: 0.8rem;
   transition: background 0.3s ease, color 0.3s ease;
